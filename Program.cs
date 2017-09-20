@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
 
 namespace CS
 {
@@ -10,6 +7,8 @@ namespace CS
     {
         static void Main(string[] args)
         {
+            CS.Algorithms.BinarySearchTree.GeeksForGeeks.Run();
+            Console.ReadLine();
         }
     }
 }

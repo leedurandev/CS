@@ -43,12 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\AlgorithmsSrv.cs" />
+    <Compile Include="Algorithms\BinarySearchTree\BinarySearchTree.cs" />
+    <Compile Include="Algorithms\BinarySearchTree\geeksforgeeks\Node.cs" />
+    <Compile Include="Algorithms\BinarySearchTree\geeksforgeeks\Run.cs" />
+    <Compile Include="Algorithms\BinarySearchTree\geeksforgeeks\Traversal.cs" />
+    <Compile Include="CS.cs" />
+    <Compile Include="Interfaces\IRun.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
