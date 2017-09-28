@@ -5,3 +5,5 @@ C:\Users\Lee\Documents\GitHub\CS\bin\Debug\CS.pdb
 C:\Users\Lee\Documents\GitHub\CS\obj\Debug\CS.csprojResolveAssemblyReference.cache
 C:\Users\Lee\Documents\GitHub\CS\obj\Debug\CS.exe
 C:\Users\Lee\Documents\GitHub\CS\obj\Debug\CS.pdb
+C:\Repositories\CS\CS\obj\Debug\CS.exe
+C:\Repositories\CS\CS\obj\Debug\CS.pdb
