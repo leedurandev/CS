@@ -10,6 +10,7 @@ namespace CS.Algorithms.BinarySearchTree.geeksforgeeks
             Node.Insert(root, 30);
             Node.Insert(root, 20);
             Node.Insert(root, 40);
+            Node.Insert(root, 75);
             Node.Insert(root, 70);
             Node.Insert(root, 60);
             Node.Insert(root, 80);
