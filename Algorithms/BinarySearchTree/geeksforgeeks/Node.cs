@@ -1,5 +1,5 @@
 ﻿
-namespace CS.Algorithms.BinarySearchTree.geeksforgeeks
+namespace CS.Algorithms.BinarySearchTree.GeeksForGeeks
 {
     internal class Node
     {

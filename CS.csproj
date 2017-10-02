@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\AlgorithmsSrv.cs" />
-    <Compile Include="Algorithms\BinarySearchTree\BinarySearchTree.cs" />
-    <Compile Include="Algorithms\BinarySearchTree\geeksforgeeks\Node.cs" />
-    <Compile Include="Algorithms\BinarySearchTree\geeksforgeeks\Run.cs" />
-    <Compile Include="Algorithms\BinarySearchTree\geeksforgeeks\Traversal.cs" />
+    <Compile Include="Algorithms\BinarySearchTree\BinarySearchTreeSrv.cs" />
+    <Compile Include="Algorithms\BinarySearchTree\GeeksForGeeks\Node.cs" />
+    <Compile Include="Algorithms\BinarySearchTree\GeeksForGeeks\Run.cs" />
+    <Compile Include="Algorithms\BinarySearchTree\GeeksForGeeks\Traversal.cs" />
+    <Compile Include="Algorithms\BubbleSort\BubbleSortSrv.cs" />
+    <Compile Include="Algorithms\BubbleSort\GeeksForGeeks\Run.cs" />
     <Compile Include="CS.cs" />
     <Compile Include="Interfaces\IRun.cs" />
     <Compile Include="Program.cs" />
@@ -55,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Big O\Cheat Sheet.url" />
-    <None Include="Big O\GraphSketch.url" />
+    <None Include="Big-O\Urls\Cheat Sheet.url" />
+    <None Include="Big-O\Urls\GraphSketch.url" />
+    <None Include="Math\Urls\Math Symbols.url" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

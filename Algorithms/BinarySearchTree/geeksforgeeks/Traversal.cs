@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CS.Algorithms.BinarySearchTree.geeksforgeeks
+namespace CS.Algorithms.BinarySearchTree.GeeksForGeeks
 {
     internal static class Traversal
     {

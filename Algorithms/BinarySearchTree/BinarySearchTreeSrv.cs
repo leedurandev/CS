@@ -1,5 +1,4 @@
-﻿using geeksForGeeks = CS.Algorithms.BinarySearchTree.geeksforgeeks;
-
+﻿
 namespace CS.Algorithms.BinarySearchTree
 {
     internal class BinarySearchTreeSrv
@@ -8,7 +7,7 @@ namespace CS.Algorithms.BinarySearchTree
 
         public BinarySearchTreeSrv()
         {
-            GeeksForGeeks = new geeksForGeeks.Run();
+            GeeksForGeeks = new GeeksForGeeks.Run();
         }
     }
 }
