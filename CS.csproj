@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Big O\Cheat Sheet.url" />
     <None Include="Big O\GraphSketch.url" />
   </ItemGroup>
   <ItemGroup />
