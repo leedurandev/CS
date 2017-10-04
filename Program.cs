@@ -7,7 +7,7 @@ namespace CS
     {
         static void Main(string[] args)
         {
-            CS.Algorithms.BinarySearchTree.GeeksForGeeks.Run();
+            CS.Algorithms.BubbleSort.GeeksForGeeks.Run();
             Console.ReadLine();
         }
     }

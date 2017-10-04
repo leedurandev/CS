@@ -50,6 +50,7 @@
     <Compile Include="Algorithms\BinarySearchTree\GeeksForGeeks\Traversal.cs" />
     <Compile Include="Algorithms\BubbleSort\BubbleSortSrv.cs" />
     <Compile Include="Algorithms\BubbleSort\GeeksForGeeks\Run.cs" />
+    <Compile Include="Algorithms\BubbleSort\GeeksForGeeks\Sorter.cs" />
     <Compile Include="CS.cs" />
     <Compile Include="Interfaces\IRun.cs" />
     <Compile Include="Program.cs" />
