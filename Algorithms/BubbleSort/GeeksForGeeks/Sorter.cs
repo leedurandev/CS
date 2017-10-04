@@ -27,7 +27,7 @@ namespace CS.Algorithms.BubbleSort.GeeksForGeeks
             for (i = 0; i < Arr.Length - 1; i++)
 
                 // Last i elements are already in place   
-                for (j = 0; j < Arr.Length - i - 1; j++)
+                for (j = 0; j < Arr.Length - 1; j++)
                     if (Arr[j] > Arr[j + 1])
                         Swap(ref Arr[j], ref Arr[j + 1]);
         }
@@ -36,7 +36,7 @@ namespace CS.Algorithms.BubbleSort.GeeksForGeeks
         void Print()
         {
             int i;
-            for (i = 0; i < Arr.Length - 1; i++)
+            for (i = 0; i < Arr.Length; i++)
                 Console.WriteLine(Arr[i]);
         }
     }
