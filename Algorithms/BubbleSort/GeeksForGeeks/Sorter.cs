@@ -42,7 +42,7 @@ namespace CS.Algorithms.BubbleSort.GeeksForGeeks
             bool swapped = false;
             for (i = 0; i < Arr.Length - 1; i++)
             {
-                // Last i elements are already in place   
+                // last i elements are already in place   
                 for (j = 0; j < Arr.Length - 1; j++)
                 {
                     if (Arr[j] > Arr[j + 1])
@@ -58,7 +58,7 @@ namespace CS.Algorithms.BubbleSort.GeeksForGeeks
             }
         }
 
-        /* Function to print an array */
+        /* function to print an array */
         void Print()
         {
             int i;
