@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace CS
 {
@@ -7,7 +6,7 @@ namespace CS
     {
         static void Main(string[] args)
         {
-            CS.Algorithms.BubbleSort.GeeksForGeeks.Run();
+            CS.Main.Services.Algorithm.BubbleSort.Run();
             Console.ReadLine();
         }
     }

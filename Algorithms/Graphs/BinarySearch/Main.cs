@@ -1,7 +1,7 @@
 ﻿
-namespace CS.Algorithms.BinarySearchTree.GeeksForGeeks
+namespace CS.Algorithms.Graph.BinarySearch
 {
-    internal class Run : IRun
+    internal class Main : IRun
     {
         void IRun.Run()
         {

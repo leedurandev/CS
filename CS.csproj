@@ -43,26 +43,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\AlgorithmsSrv.cs" />
-    <Compile Include="Algorithms\BinarySearchTree\BinarySearchTreeSrv.cs" />
-    <Compile Include="Algorithms\BinarySearchTree\GeeksForGeeks\Node.cs" />
-    <Compile Include="Algorithms\BinarySearchTree\GeeksForGeeks\Run.cs" />
-    <Compile Include="Algorithms\BinarySearchTree\GeeksForGeeks\Traversal.cs" />
-    <Compile Include="Algorithms\BubbleSort\BubbleSortSrv.cs" />
-    <Compile Include="Algorithms\BubbleSort\GeeksForGeeks\Run.cs" />
-    <Compile Include="Algorithms\BubbleSort\GeeksForGeeks\Sorter.cs" />
-    <Compile Include="CS.cs" />
+    <Compile Include="DataStructures\Arrays\Dynamic.cs" />
+    <Compile Include="DataStructures\Arrays\Jagged.cs" />
+    <Compile Include="DataStructures\Arrays\Linear.cs" />
+    <Compile Include="DataStructures\Arrays\Main.cs" />
+    <Compile Include="DataStructures\Arrays\MultiDim.cs" />
+    <Compile Include="Services\Algorithm.cs" />
+    <Compile Include="Algorithms\Graphs\BinarySearch\Node.cs" />
+    <Compile Include="Algorithms\Graphs\BinarySearch\Main.cs" />
+    <Compile Include="Algorithms\Graphs\BinarySearch\Traversal.cs" />
+    <Compile Include="Algorithms\Sorting\BubbleSort\Main.cs" />
+    <Compile Include="Algorithms\Sorting\BubbleSort\Sorter.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Interfaces\IRun.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Architecture.cs" />
+    <Compile Include="Services\Concepts.cs" />
+    <Compile Include="Services\DataStructures.cs" />
+    <Compile Include="Services\Patterns.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Big-O\Urls\Cheat Sheet.url" />
-    <None Include="Big-O\Urls\GraphSketch.url" />
-    <None Include="Math\Urls\Math Symbols.url" />
+    <None Include="Concepts\Big-O\Urls\Cheat Sheet.url" />
+    <None Include="Concepts\Big-O\Urls\GraphSketch.url" />
+    <None Include="Concepts\Big-O\Urls\Videos\Harvard CS50.url" />
+    <None Include="Concepts\Big-O\Urls\Videos\Asymptotic Notation.url" />
+    <None Include="Concepts\Math\Urls\MathSymbols.url" />
+    <None Include="Concepts\StudyGuids\JWashum.url" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Architecture\" />
+    <Folder Include="Patterns\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

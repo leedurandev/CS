@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CS.Algorithms.BubbleSort.GeeksForGeeks
+namespace CS.Algorithms.Sorting.BubbleSort
 {
     /// <summary>
     /// Sorting algorithm that repeatedly swaps the adjacent elements 

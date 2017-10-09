@@ -1,7 +1,7 @@
 ﻿
-namespace CS.Algorithms.BubbleSort.GeeksForGeeks
+namespace CS.Algorithms.Sorting.BubbleSort
 {
-    internal class Run : IRun
+    internal class Main : IRun
     {
         void IRun.Run()
         {
