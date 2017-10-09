@@ -7,6 +7,11 @@ namespace CS.DataStructures.Arrays
     /// Array brackets [x] is called the rank
     /// rank - "number of dimensions"; thus, a two-dimensional array has rank two, a three-dimensional array 
     /// has rank three and so on
+    /// 
+    /// The Rank property of a jagged array is always 1, but a multidimensional array can have any rank. 
+    /// 
+    /// A multidimensional array is laid out linearly in memory, the actual value is found by multiplying together the indexes
+    /// and are (n-1)-dimension matrices
     /// </summary>
     internal class MultiDim
     {
