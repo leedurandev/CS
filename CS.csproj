@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Sorting\MergeSort\C\Main.cs" />
+    <Compile Include="Algorithms\Sorting\MergeSort\C\Sorter.cs" />
+    <Compile Include="Algorithms\Sorting\MergeSort\Net\Main.cs" />
+    <Compile Include="Algorithms\Sorting\MergeSort\Net\Sorter.cs" />
     <Compile Include="DataStructures\Arrays\Dynamic.cs" />
     <Compile Include="DataStructures\Arrays\Jagged.cs" />
     <Compile Include="DataStructures\Arrays\Linear.cs" />
     <Compile Include="DataStructures\Arrays\Main.cs" />
     <Compile Include="DataStructures\Arrays\MultiDim.cs" />
+    <Compile Include="Interfaces\ISort.cs" />
     <Compile Include="Services\Algorithm.cs" />
     <Compile Include="Algorithms\Graphs\BinarySearch\Node.cs" />
     <Compile Include="Algorithms\Graphs\BinarySearch\Main.cs" />
@@ -71,6 +76,10 @@
     <None Include="Concepts\Big-O\Urls\Videos\Asymptotic Notation.url" />
     <None Include="Concepts\Math\Urls\MathSymbols.url" />
     <None Include="Concepts\StudyGuids\JWashum.url" />
+    <None Include="DataStructures\- Urls\btechsmartclass.url" />
+    <None Include="DataStructures\Arrays\Urls\Jagged.url" />
+    <None Include="DataStructures\Arrays\Urls\MultiDim.url" />
+    <None Include="DataStructures\Arrays\Urls\Single.url" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Architecture\" />

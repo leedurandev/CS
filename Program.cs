@@ -6,7 +6,7 @@ namespace CS
     {
         static void Main(string[] args)
         {
-            CS.Main.Services.Algorithm.BubbleSort.Run();
+            CS.Main.Services.Algorithm.MergeSort_C.Run();
             Console.ReadLine();
         }
     }
